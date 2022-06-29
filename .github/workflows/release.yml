@@ -1,6 +1,9 @@
 name: Release
 on:
   workflow_dispatch:
+  pull_request: ["prototyping"]
+  push: ["prototyping"]
+
 
 jobs:
   lint:
